@@ -1,13 +1,13 @@
 {
   "name": "@bitfinity-network/bitfinitywallet",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Bitfinitywallet utils and types",
   "author": "Bitfinity <support@infinityswap.one> (https://bitfinity.network/)",
   "type": "module",
   "source": "src/index.ts",
-  "engines" : {
-    "npm" : ">=8.0.0",
-    "node" : ">=16.0.0"
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
   },
   "exports": {
     ".": {
@@ -49,10 +49,10 @@
     "microbundle": "^0.15.1",
     "prettier": "^3.1.0"
   },
-  "dependencies": {
-    "@dfinity/agent": "^1.3.0",
-    "@dfinity/candid": "^1.3.0",
-    "@dfinity/principal": "^1.3.0",
-    "dotenv": "^16.3.1"
+  "dependencies": {},
+  "peerDependencies": {
+    "@dfinity/agent": ">=0.15.3 <=1.3.0",
+    "@dfinity/candid": ">=0.15.3 <=1.3.0",
+    "@dfinity/principal": ">=0.15.3 <=1.3.0"
   }
 }

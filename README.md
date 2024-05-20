@@ -2,8 +2,14 @@
 
 # Install
 
+Install required peer dependencies:
 ```
-npm install @bitfinity-network/bitfinitywallet
+npm install @dfinity/agent @dfinity/candid @dfinity/principal
+```
+
+Install th package itself:
+```
+npm install @bitfinity-network/bitfinitywallet 
 ```
 
 # Usage
